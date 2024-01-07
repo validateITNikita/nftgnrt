@@ -1,0 +1,17 @@
+{
+    "name": "nftgenerator",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "generate": "node ./scripts/generate_metadata.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "array-shuffle": "^3.0.0",
+        "ethers": "5.7.2"
+    }
+}
